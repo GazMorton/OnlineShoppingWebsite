@@ -1,0 +1,100 @@
+#header-page {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-image: url("Yellow\ dress.jpeg");
+    height:200px;
+    
+}
+
+img {
+    padding:10px;
+}
+
+hr {
+    color:white;
+    text-shadow: aqua;
+}
+
+h2,h3,h4 {
+    text-align:center;
+    margin-top:15px;
+    margin-bottom:15px;
+    text-shadow: chartreuse;
+    
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align:center;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:300px;
+    width: 250px;
+}
+
+* {
+    margin:0; 
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family:"Cambria";
+    font-size: 16px;  
+    text-align:center; 
+}
+
+.button {
+    display: block;
+    text-align: center;
+    background-color: #1b12d3; /* Green */
+    border:blanchedalmond;
+    color: white;
+    padding: 10px 30px;
+    margin:30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    color:rgb(250, 251, 245);
+    box-shadow: 0px 0px 30px 0px;
+}
+
+img{
+    /* width: 48px; */
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+img:hover{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(149, 0, 255, 0.67);
+    -moz-box-shadow:    0px 0px 30px 0px rgba(247, 0, 255, 0.67);
+    box-shadow:         0px 0px 30px 0px rgba(234, 0, 255, 0.67);
+}
+
+
+
+input {
+
+    margin-bottom:5px;
+}
+
+form {
+    text-align: left;
+}
